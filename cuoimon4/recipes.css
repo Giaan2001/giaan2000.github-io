@@ -1,0 +1,319 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+	width:100%;
+	height: 2000px;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	height: 230px;
+	float:left;
+}
+.logo{
+	width:20%;
+	height: 200px;
+	float:left;
+	margin-top:20px;
+	margin-left:150px;
+}
+.logo-img{
+	width:200px;
+	height: 200px;
+	float:right;
+}
+.logo-img img{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+}
+.menu{
+	width:60%;
+	height: 200px;
+	margin-top:20px;
+	margin-right: 150px;
+	text-align: center;
+	line-height: 220px;
+	float:right;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	height:200px;
+	padding: 5px;
+}
+.menu ul li{
+	width:150px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	list-style:none;
+	position:relative;
+	transition: 0.5s;
+	border: 2px solid transparent;
+	line-height: 50px;
+}
+.menu ul li:hover{
+	border-color: darkgreen;
+	border-radius: 25px;
+}
+.menu ul li:hover a{
+	color:darkgreen;
+}
+.menu ul li a{
+	color:black;
+	font-size:25px;
+	display:block;
+	text-decoration: none;
+}
+.menu ul li ul{
+	display:none;
+	position:absolute;
+	background-color:white;
+	padding:5px;
+	margin-top:2px;
+	height: 265px;
+}
+.menu ul li:hover ul{
+	display:block;
+	
+}
+.menu ul li ul li{
+	width:140px;
+	border-radius: 4px;
+	margin-top:10px;
+}
+.body{
+	width:100%;
+	height: 900px;
+	float:left;
+}
+.bodyparttext{
+	width:100%;
+	height: 450px;
+	background-color:#f3f3f3;
+	float: left;
+	margin-top:220px;
+}
+.bodyparttext h1,p{
+	text-align:center;
+}
+.bodyparttext h1{
+	margin-top:60px;
+	font-size:50px;
+	margin-left:600px;
+	margin-right:600px;
+	line-height: 70px;
+}
+.word{
+	transition-duration: 1s;
+	font-size:70px;
+}
+.word:hover{
+	color:darkgreen;
+	transform: scale(1.2);
+}
+.line{
+	width: 10%;
+	height: 5px;
+	background-color:darkgreen;
+	margin:0 auto;
+	margin-top: 45px;
+	margin-bottom: 30px;
+	transition: 1s;
+}
+.line:hover{
+	transform: scale(1.2);
+}
+.bodyparttext p{
+	margin-left:500px;
+	margin-right:500px;
+	font-size:20px;
+	margin-top:50px;
+}
+.bodypartimg{
+	width:100%;
+	height: 1300px;
+	float:left;
+}
+.container{
+	width:60%;
+	height: 500px;
+	margin:0 auto;
+	margin-top:200px;
+}
+.box1{
+	width:500px;
+	height: 400px;
+	background-color:red;
+	margin:0 auto;
+	float:left;
+	margin-top:50px;
+	margin-left:25px;
+	background:url(img/gettyimages-742168705.jpg);
+	background-size:cover;
+	transition-duration: 1s;
+	box-shadow: 20px 20px #f3f3f3;
+}
+.box1:hover{
+	transform: scale(1.2);
+}
+.box1 p{
+	text-align:left;
+	font-size:20px;
+	line-height: 900px;
+}
+.box2{
+	width:500px;
+	height: 400px;
+	background-color:red;
+	margin:0 auto;
+	float:right;
+	margin-top:50px;
+	margin-right:25px;
+	background:url(img/pexels-horizon-content-3763847.jpg);
+	background-size:cover;
+	transition-duration: 1s;
+	box-shadow: 20px 20px #f3f3f3;
+}
+.box2:hover{
+	transform: scale(1.2);
+}
+.box2 p{
+	text-align:left;
+	font-size:20px;
+	line-height: 900px;
+}
+.box3{
+	width:500px;
+	height: 400px;
+	background-color:red;
+	margin:0 auto;
+	float:left;
+	margin-top:80px;
+	margin-left:25px;
+	background:url(img/simple-roasted-garlic-sauce-1.jpg);
+	background-size:cover;
+	transition-duration: 1s;
+	box-shadow: 20px 20px #f3f3f3;
+}
+.box3:hover{
+	transform: scale(1.2);
+}
+.box3 p{
+	text-align:left;
+	font-size:20px;
+	line-height: 900px;
+}
+.box4{
+	width:500px;
+	height: 400px;
+	background-color:red;
+	margin:0 auto;
+	float:right;
+	margin-top:80px;
+	margin-right:25px;
+	background:url(img/pexels-pixabay-45202.jpg);
+	background-size:cover;
+	transition-duration: 1s;
+	box-shadow: 20px 20px #f3f3f3;
+}
+.box4:hover{
+	transform: scale(1.2);
+}
+.box4 p{
+	text-align:left;
+	font-size:20px;
+	line-height: 900px;
+}
+.bodypart2{
+	width:100%;
+	height: 900px;
+	float:left;
+
+}
+.text{
+	width:50%;
+	height: 600px;
+	background-color:#f3f3f3;
+	margin-top:150px;
+	float:left;
+}
+.text h1,p{
+	text-align:left;
+	margin-left:200px;
+}
+.text h1{
+	margin-top:100px;
+	transition-duration:1s;
+}
+.text h1:hover{
+	transform: scale(1.2);
+	color:darkgreen;
+}
+.text p{
+	font-size:20px;
+	margin-top:100px;
+}
+.text .line{
+	float:left;
+	margin-left:200px;
+}
+.mini{
+	margin-top:50px;
+	margin-left:200px;
+}
+.text2{
+	width:50%;
+	height: 600px;
+	background-color:#f3f3f3;
+	margin-top:150px;
+	float:right;
+}
+.text2 h1,p{
+	text-align:left;
+	margin-left:200px;
+}
+.text2 h1{
+	margin-top:100px;
+	transition-duration:1s;
+}
+.text2 h1:hover{
+	transform: scale(1.2);
+	color:darkgreen;
+}
+.text2 p{
+	font-size:20px;
+	margin-top:100px;
+}
+.text2 .line{
+	float:left;
+	margin-left:200px;
+}
+.mini2{
+	margin-top:100px;
+	margin-left:200px;
+}
+.footer{
+	width:100%;
+	height: 200px;
+	background-color:brown;
+	float:left;
+	margin-top:1770px;
+	
+}
+.footer p{
+	text-align:center;
+	font-size:20px;
+	line-height: 30px;
+	margin-top:80px;
+}
